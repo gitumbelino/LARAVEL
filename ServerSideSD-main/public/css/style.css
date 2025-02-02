@@ -1,0 +1,99 @@
+
+body {
+    background-color: #FBE7C6;
+}
+
+html,
+body {
+    height: 100%;
+
+}
+
+.home-message-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+
+}
+
+h2 {
+    font-size: 40px;
+    padding: 16px;
+    margin-bottom: 0;
+
+}
+
+.form-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: auto;
+
+
+}
+
+.table-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    max-width: 800px;
+    margin: auto;
+}
+
+.table-title {
+    align-self: flex-start;
+    width: 100%;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .table-responsive {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+}
+
+.table th,
+.table td {
+    padding: 8px 16px;
+    vertical-align: middle;
+    border: 1px solid #dee2e6;
+    white-space: nowrap;
+    width: auto;
+    border: 0;
+}
+
+.table th[style*="width"],
+.table td[style*="width"] {
+    width: auto !important;
+}
+
+.table .btn {
+    color: white;
+    max-width: 80px;
+    width: 100%;
+    display: block;
+    white-space: nowrap;
+    margin: 0 auto;
+}
+
+.table td:has(.btn) {
+    width: 80px;
+    min-width: 80px;
+    padding: 8px 16px;
+}
+
+.table th:first-child,
+.table td:first-child {
+    text-align: center;
+}

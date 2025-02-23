@@ -1,0 +1,37 @@
+
+
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.background {
+    height: inherit;
+    /*background: linear-gradient(45deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 86%);
+    */
+}
+
+footer {
+    height: 60px;
+    background-color: rgb(214, 214, 214);
+}
+
+
+/*----------------Messages-----------------------*/
+
+.main-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+h2{
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+
